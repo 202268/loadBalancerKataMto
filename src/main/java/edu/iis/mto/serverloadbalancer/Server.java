@@ -12,7 +12,7 @@ public class Server {
 	public int capacity;
 	private List<Vm> listOfVm=new ArrayList<Vm>();
 	public boolean contains(Vm theVm) {
-		return true;
+		return listOfVm.contains(theVm);
 	}
 
 	public Server(int capacity) {
